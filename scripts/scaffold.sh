@@ -1,3 +1,3 @@
-CONTAINER_NAME=9c4e2345ad92
-MODULE_NAME=web_porfolio
+CONTAINER_NAME=9e8f0bef0296
+MODULE_NAME=custom_page
 docker exec $CONTAINER_NAME odoo scaffold $MODULE_NAME /mnt/extra-addons

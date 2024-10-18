@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="webpage" name="template_name_1" inherit_id="website.homepage">
+      <xpath expr="//div[@id='wrap']" position="replace">
+        <p>Hi</p>
+
+      </xpath>
+    </template>
+  </data>
+</odoo>
