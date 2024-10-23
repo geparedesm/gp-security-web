@@ -30,5 +30,17 @@ Long description of module's purpose
     'demo': [
         'demo/demo.xml',
     ],
+    'assets': {
+        'web.assets_frontend': [
+            'custom_page/static/src/css/open-iconic-bootstrap.min.css',
+            'custom_page/static/src/css/animate.css',
+            'custom_page/static/src/css/owl.carousel.min.css',
+            'custom_page/static/src/css/owl.theme.default.min.css',
+            'custom_page/static/src/css/magnific-popup.css',
+            'custom_page/static/src/css/ionicons.min.css',
+            'custom_page/static/src/css/flaticon.css',
+            'custom_page/static/src/css/icomoon.css',
+            'custom_page/static/src/css/style.css',
+        ],
+    },
 }
-

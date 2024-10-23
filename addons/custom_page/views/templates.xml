@@ -3,8 +3,25 @@
   <data>
     <template id="webpage" name="template_name_1" inherit_id="website.homepage">
       <xpath expr="//div[@id='wrap']" position="replace">
-        <p>Hi</p>
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/open-iconic-bootstrap.min.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/animate.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/owl.carousel.min.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/owl.theme.default.min.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/magnific-popup.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/ionicons.min.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/flaticon.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/icomoon.css"></link>
+        <link rel="stylesheet" href="/custom_page/static/src/css/style.css"></link>
 
+
+        <section id="home-section" class="hero">
+          <div class="home-slider  owl-carousel">
+
+
+          </div>
+        </section>
       </xpath>
     </template>
   </data>
